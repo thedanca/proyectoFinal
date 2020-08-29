@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Si tenes una consulta escribenos y nos pondremos en contacto">
+    <meta name="keywords" content="CONTACTO, TELEFONO, DONDE ESTAN, LOCALIZACION, DIRECCION, MANTENIMIENTO, VIRUS, HACER MANTENIMIENTO">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
+    <script src="https://kit.fontawesome.com/f94b1b94bf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> <!-- CDN de Bootstrap del JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script><!-- CDN de la librería de Jquery  -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> <!-- CDN de la librería de Popper  --> 
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Contacto</title>
+  </head>
+  <body >
+    <header>
+      <nav>
+        <ul>
+          <li class="logo"><a href="index.html">Servicio Técnico</a></li>
+          <li class="items"><a href="sobre_nosotros.html"><i class="far fa-id-badge"></i>Sobre nosotros</a></li>
+          <li class="items"><a href="servicios.html"><i class="far fa-list-alt"></i>Servicios</a></li>
+          <li class="items"><a href="planes.html"><i class="far fa-list-alt"></i>Planes</a></li>
+          <li class="items"><a href="contacto.html"><i class="far fa-address-card"></i>Contacto</a></li>
+          <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+      </nav>
+    </header>
+    <script>
+      $(document).ready(function(){
+        $('.btn').click(function(){
+          $('.items').toggleClass("show");
+          $('ul li').toggleClass("hide");
+        });
+      });
+    </script>
+    <main>
+      <div>
+        <section>
+          <div class="container">
+            <h1>¿Tienes alguna duda?</h1>
+            <div class="container__contact">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="contact-info">
+                    <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+                    <h2>Escribenos!</h2>
+                    <h4>Nos pondremos en contacto a la brevedad</h4>
+                    <div>
+                      <p>Telefonos: 11-22334455</p>
+                      <p>Dirección: ejemplo 123, BS AS, ARG</p>
+                      <p>Correo: ejemplo@ejemplo.com.ar</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="contact-form">
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="nombre">Nombre:</label>
+                      <div class="col-sm-12">          
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" name="nombre">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="apellido">Apellido:</label>
+                      <div class="col-sm-12">          
+                        <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido" name="apellido">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="email">Email:</label>
+                      <div class="col-sm-12">
+                        <input type="email" class="form-control" id="email" placeholder="Ingresa tu mail" name="email">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-3" for="comment">Tu consulta:</label>
+                      <div class="col-sm-12">
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Enviar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container__mapa">
+              <div class>
+                <h2>Encontranos!</h2>
+              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210146.68168877432!2d-58.573383207134555!3d-34.615743688997895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1595987443318!5m2!1ses-419!2sar" width="500" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer footer--facebook"><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a></div>
+      <div class="footer footer--instagram"><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
+      <div class="footer footer--youtube"><a href="https://www.youtube.com.ar" target="_blank"><i class="fab fa-youtube"></i></a></div>
+    </footer>
+  </body>
+</html>
