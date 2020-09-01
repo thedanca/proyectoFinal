@@ -28,7 +28,7 @@
   <body>
     <header>
       <nav>
-         <ul>
+         <ul class="MENU">
             <li class="logo"><a href="index.html">Servicio Técnico</a></li>
              <li class="items"><a href="sobre_nosotros.html"><i class="far fa-id-badge"></i>Sobre nosotros</a></li>
              <li class="items"><a href="servicios.html"><i class="far fa-list-alt"></i>Servicios</a></li>
@@ -40,7 +40,7 @@
      </header>
        <script>
          $(document).ready(function(){
-           $('.btn').click(function(){
+           $('.MENU .btn').click(function(){
              $('.items').toggleClass("show");
              $('ul li').toggleClass("hide");
            });
@@ -68,7 +68,7 @@
                 <li>Vinculación de cuentas de correo</li>
                 <li>Liberación de espacio</li>
               </ul>
-              <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#demo">+Info</button>
+              <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#demo"><a href="#info">+Info</a></button>
             </div>
           </div>
           <div class="columnas__item">
@@ -82,27 +82,25 @@
                 <li>Limpieza de virus</li>
                 <li>Instalación de programas esenciales</li>
               </ul>
-              <button type="button" class="btn btn-primary collapsed" data-toggle="collapse"  data-target="#demo2">+Info</button>
+              <button type="button" class="btn btn-primary collapsed" data-toggle="collapse" data-target="#demo"><a href="#info">+Info</a></button>
             </div>
           </div>
-        </section>
-        <section class="texto">
-          <div id="demo" class="texto texto--miniatura collapse">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <div id="demo2" class="texto texto--miniatura collapse">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-          <p class="texto texto--descripcion">No importa cual es tu dispositivo, nosotros contamos con amplias actividades para brindarte dependiendo de cual sea. Por lo tanto siempre vas a tener tu equipo otorgando el máximo de su rendimiento y sin ningún problema  para que puedas disfrutar del mismo como el primer día que lo obtuviste.</p>
-        </section>
+      </div>
+
+    </section>
+    <p class="texto texto--descripcion">No importa cual es tu dispositivo, nosotros contamos con amplias actividades para brindarte dependiendo de cual sea. Por lo tanto siempre vas a tener tu equipo otorgando el máximo de su rendimiento y sin ningún problema  para que puedas disfrutar del mismo como el primer día que lo obtuviste.</p>
+  </section>
+     
+
+      <div class="grid-container">
+        <div class="mobileEnc"><h2>Mobile</h2><a name="info"></a></div>
+        <div class="contMobile">
+          <p>Optimizamos el rendimiento de su dispositivo mobile mediante escaneo de virus, liberación de espacio, actualizaciones de seguridad</p>
+        </div>
+        <div class="deskEnc"><h2>Desktop</h2><a name="info"></a></div>
+        <div class="contDesk">
+          <p>Si tu dispositivo es desktop, nos encargamos de realizar mantenimiento, limpieza física de los componentes internos, escaneo de virus y optimización del S.O</p>
+        </div>
       </div>
     </main>
     <footer class="footer">

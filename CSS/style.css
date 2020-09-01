@@ -25,7 +25,7 @@ h1 {
   display: grid;
   grid-template-columns: 250px 250px;
   grid-template-rows: 250px 250px;
-  align-items: center;
+  align-items: initial;
   max-width: 50%;
   max-width: 50%;
   justify-content: center; }
@@ -407,6 +407,9 @@ body {
   -webkit-border-radius: 10px 10px 10px 10px;
   border: 0px solid #000000;
   box-shadow: 5px 5px teal; }
+  .btn a {
+    text-decoration: none;
+    color: white; }
 
 .boton {
   padding: 0;
@@ -614,3 +617,35 @@ nav ul li.btn.hide i:before {
     justify-content: center;
     align-items: center;
     align-content: center; } }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.6fr 1.4fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px 1px;
+  grid-template-areas: "mobileEnc contMobile" "deskEnc contDesk"; }
+
+.mobileEnc {
+  grid-area: mobileEnc;
+  background: #25274d;
+  color: #fff; }
+
+.contMobile {
+  grid-area: contMobile;
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff; }
+  .contMobile p {
+    color: #fff;
+    font-family: 'Poiret One'; }
+
+.deskEnc {
+  grid-area: deskEnc;
+  background: #25274d;
+  color: #fff; }
+
+.contDesk {
+  grid-area: contDesk;
+  background: rgba(0, 0, 0, 0.1); }
+  .contDesk p {
+    color: #fff;
+    font-family: 'Poiret One'; }

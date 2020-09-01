@@ -23,7 +23,7 @@
    <body>
       <header>
          <nav>
-            <ul>
+            <ul class="MENU"> 
                <li class="logo"><a href="index.html">Servicio Técnico</a></li>
                <li class="items"><a href="sobre_nosotros.html"><i class="far fa-id-badge"></i>Sobre nosotros</a></li>
                <li class="items"><a href="servicios.html"><i class="far fa-list-alt"></i>Servicios</a></li>
@@ -35,7 +35,7 @@
       </header>
       <script>
          $(document).ready(function(){
-           $('.btn').click(function(){
+           $('.MENU .btn').click(function(){
              $('.items').toggleClass("show");
              $('ul li').toggleClass("hide");
            });
