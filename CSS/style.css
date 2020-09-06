@@ -5,18 +5,18 @@
 
 a {
   text-decoration: none;
-  font-family: 'Poiret One'; }
+  font-family: "Poiret One"; }
 
 h2 {
   font-size: 30px;
   color: white;
-  font-family: 'Poiret One';
+  font-family: "Poiret One";
   text-transform: uppercase; }
 
 h1 {
   font-size: 30px;
   color: white;
-  font-family: 'Rajdhani', sans-serif;
+  font-family: "Rajdhani", sans-serif;
   text-transform: uppercase; }
 
 .cuerpoGrid {
@@ -107,8 +107,6 @@ h1 {
   grid-gap: 15px; }
 
 .img {
-  /* background: #1f6cb0;
-	*/
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -127,20 +125,20 @@ h1 {
 .texto--descripcion {
   text-align: justify;
   font-size: 30px;
-  font-family: 'Poiret One';
+  font-family: "Poiret One";
   color: white; }
 
 .texto--servicios {
   text-align: justify;
   font-size: 30px;
-  font-family: 'Poiret One';
+  font-family: "Poiret One";
   color: white; }
 
 .texto--sobreNosotros {
   padding: 5px;
   margin: 0px 10px 10px 10px;
   color: white;
-  font-family: 'Poiret One';
+  font-family: "Poiret One";
   text-align: center;
   font-size: 25px;
   background: rgba(0, 0, 0, 0.1);
@@ -153,15 +151,10 @@ h1 {
 
 .texto--home {
   padding: 15px;
-  font-family: 'Poiret One';
-  font-size: 25px;
-  text-align: center;
+  font-family: "Poiret One";
+  font-size: 1.5rem;
+  text-align: justify;
   color: white;
-  box-shadow: 10px 10px teal;
-  border-radius: 10px 10px 10px 10px;
-  -moz-border-radius: 10px 10px 10px 10px;
-  -webkit-border-radius: 10px 10px 10px 10px;
-  border: 0px solid #000000;
   background: rgba(0, 0, 0, 0.1);
   margin: 30px 10px 10px 30px;
   -webkit-order: 0;
@@ -190,7 +183,7 @@ h1 {
 .item__encabezado {
   background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
   text-align: center;
-  font-family: 'Poiret One';
+  font-family: "Poiret One";
   border-radius: 49px 49px 49px 49px;
   -moz-border-radius: 49px 49px 49px 49px;
   -webkit-border-radius: 49px 49px 49px 49px;
@@ -198,17 +191,17 @@ h1 {
   .item__encabezado h2 {
     color: white;
     text-transform: uppercase;
-    font-family: 'Poiret One'; }
+    font-family: "Poiret One"; }
 
 .container__textServi {
   padding: 0;
   margin: 0;
   text-align: center;
-  font-family: 'Poiret One';
+  font-family: "Poiret One";
   color: white;
   font-size: 20px; }
   .container__textServi h2 {
-    font-family: 'Poiret One'; }
+    font-family: "Poiret One"; }
 
 .container--sobreNos {
   display: -ms-flexbox;
@@ -257,7 +250,7 @@ section .sobreNos {
   word-spacing: 2px;
   font-size: 17px;
   font-weight: bold;
-  font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
   background: rgba(0, 0, 0, 0.1);
   box-shadow: 10px 10px teal;
   border-radius: 10px 10px 10px 10px;
@@ -280,18 +273,18 @@ section .sobreNos {
 .grid-gallery {
   display: grid;
   grid-auto-rows: 200px;
-  grid-gap: 0,8rem;
+  grid-gap: 0, 8rem;
   grid-auto-flow: row dense;
   padding: 15px;
   min-width: 200px; }
 
-.grid-gallery__item:nth-child(11n+1) {
+.grid-gallery__item:nth-child(11n + 1) {
   grid-column: span 2; }
 
-.grid-gallery__item:nth-child(11n+4) {
+.grid-gallery__item:nth-child(11n + 4) {
   grid-column: span 1; }
 
-.grid-gallery__item:nth-child(11n+6) {
+.grid-gallery__item:nth-child(11n + 6) {
   grid-column: span 1; }
 
 .grid-gallery__image {
@@ -341,12 +334,12 @@ section .sobreNos {
     align-items: center;
     align-content: center; }
   .contact-info h4 {
-    font-family: 'Poiret One';
+    font-family: "Poiret One";
     color: white;
     letter-spacing: 2px; }
   .contact-info p {
     color: white;
-    font-family: 'Poiret One';
+    font-family: "Poiret One";
     padding: 20px; }
 
 .contact-info h2 {
@@ -365,13 +358,13 @@ section .sobreNos {
 
 .form-group {
   letter-spacing: 2px;
-  font-family: 'Poiret One';
+  font-family: "Poiret One";
   padding: 0;
   margin: 0; }
 
 body {
   width: auto;
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #5FFB5F); }
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #5ffb5f); }
 
 .columnas__item {
   margin: 15px;
@@ -394,7 +387,7 @@ body {
   .item__contenido li {
     font-size: 20px;
     color: white;
-    font-family: 'Baloo Da 2';
+    font-family: "Baloo Da 2";
     line-height: 1;
     letter-spacing: 1px;
     list-style-type: circle; }
@@ -417,7 +410,7 @@ body {
 
 .texto--miniatura {
   color: white;
-  font-family: 'Poiret One';
+  font-family: "Poiret One";
   text-align: justify; }
   .texto--miniatura p {
     text-align: justify;
@@ -448,51 +441,9 @@ body {
 .footer--instagram a {
   color: white; }
 
-@media screen and (max-width: 576px) {
-  .item a {
-    font-size: 10px; }
-  h1 {
-    font-size: 20px; }
-  .textSobr {
-    font: 15px; }
-  h2 {
-    font-size: 20px; }
-  .item__contenido li {
-    font-size: 15px; }
-  .texto--planes {
-    font-size: 15px; }
-  .container--sobreNos {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center; } }
-
-@media screen and (max-width: 1200px) {
-  .container__sobreNos {
-    flex-direction: column;
-    align-items: center;
-    align-self: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center; }
-  .grid-gallery {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    margin: 10px; }
-  .mapa {
-    margin: 0; }
-  .texto--home {
-    max-width: 100%; } }
-
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat',sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 nav {
   background: rgba(0, 0, 0, 0.1);
@@ -524,7 +475,7 @@ nav ul li.items {
 
 nav ul li.items:after {
   position: absolute;
-  content: '';
+  content: "";
   left: 0;
   bottom: 5px;
   height: 1px;
@@ -554,11 +505,11 @@ nav ul li.logo {
   user-select: none; }
 
 nav ul li a {
-  font-family: 'Poiret One';
+  font-family: "Poiret One";
   color: white;
   letter-spacing: 2px;
   text-decoration: none;
-  transition: .4s;
+  transition: 0.4s;
   text-transform: uppercase; }
 
 nav ul li:hover a {
@@ -572,7 +523,7 @@ nav ul li.btn {
   display: none; }
 
 nav ul li.btn.hide i:before {
-  content: '\f00d'; }
+  content: "\f00d"; }
 
 .items {
   transition: all 300ms; }
@@ -586,6 +537,125 @@ nav ul li.btn.hide i:before {
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1); }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.6fr 1.4fr;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px 1px;
+  grid-template-areas: "mobileEnc contMobile" "deskEnc contDesk"; }
+
+.mobileEnc {
+  grid-area: mobileEnc;
+  background: #25274d;
+  color: #fff; }
+
+.contMobile {
+  grid-area: contMobile;
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff; }
+  .contMobile p {
+    color: #fff;
+    font-family: "Poiret One"; }
+
+.deskEnc {
+  grid-area: deskEnc;
+  background: #25274d;
+  color: #fff; }
+
+.contDesk {
+  grid-area: contDesk;
+  background: rgba(0, 0, 0, 0.1); }
+  .contDesk p {
+    color: #fff;
+    font-family: "Poiret One"; }
+
+.lt-grid-container {
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  grid-template-rows: 1fr;
+  gap: 20px 50px;
+  grid-template-areas: "lt-Enc lt-Cont";
+  align-items: center;
+  align-self: center; }
+
+.lt-Enc, .lt2-enc2 {
+  grid-area: lt-Enc;
+  align-self: center;
+  justify-self: center; }
+
+.lt-Cont, .lt2-cont2 {
+  grid-area: lt-Cont;
+  align-self: center;
+  justify-self: center;
+  background: rgba(0, 0, 0, 0.1); }
+  .lt-Cont p, .lt2-cont2 p {
+    color: white;
+    font-size: 1.2rem;
+    text-align: justify;
+    font-family: "Poiret One"; }
+
+.lt2-grid-container {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  grid-template-rows: 1fr;
+  gap: 20px 50px;
+  grid-template-areas: "lt2-cont2 lt2-enc2"; }
+
+.lt2-cont2 {
+  grid-area: lt2-cont2; }
+
+.lt2-enc2 {
+  grid-area: lt2-enc2; }
+
+@media screen and (max-width: 576px) {
+  .item a {
+    font-size: 10px; }
+  h1 {
+    font-size: 20px; }
+  .textSobr {
+    font: 15px; }
+  h2 {
+    font-size: 20px; }
+  .item__contenido li {
+    font-size: 15px; }
+  .texto--planes {
+    font-size: 15px; }
+  .lt-grid-container {
+    display: flex;
+    flex-flow: column; }
+  .texto--sobreNosotros {
+    padding: 0;
+    margin: 0; }
+  .main {
+    padding: 0;
+    margin: 0; }
+  .container {
+    padding: 0;
+    margin: 0; }
+  .logo a {
+    font-size: 1rem; }
+  .container--sobreNos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+    margin: 0; }
+  .lt-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.7fr 1.3fr;
+    gap: 20px 50px;
+    grid-template-areas: "lt-Cont" "lt-Enc"; }
+  .lt2-grid-container {
+    display: grid;
+    grid-template-columns: 1.1fr;
+    grid-template-rows: 0.7fr 1fr;
+    gap: 20px 50px;
+    grid-template-areas: "lt2-enc2" "lt2-cont2"; } }
 
 @media all and (max-width: 900px) {
   nav {
@@ -618,34 +688,23 @@ nav ul li.btn.hide i:before {
     align-items: center;
     align-content: center; } }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: 0.6fr 1.4fr;
-  grid-template-rows: repeat(2, 1fr);
-  gap: 20px 1px;
-  grid-template-areas: "mobileEnc contMobile" "deskEnc contDesk"; }
-
-.mobileEnc {
-  grid-area: mobileEnc;
-  background: #25274d;
-  color: #fff; }
-
-.contMobile {
-  grid-area: contMobile;
-  background: rgba(0, 0, 0, 0.1);
-  color: #fff; }
-  .contMobile p {
-    color: #fff;
-    font-family: 'Poiret One'; }
-
-.deskEnc {
-  grid-area: deskEnc;
-  background: #25274d;
-  color: #fff; }
-
-.contDesk {
-  grid-area: contDesk;
-  background: rgba(0, 0, 0, 0.1); }
-  .contDesk p {
-    color: #fff;
-    font-family: 'Poiret One'; }
+@media screen and (max-width: 1200px) {
+  .container__sobreNos {
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center; }
+  .grid-gallery {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 10px; }
+  .mapa {
+    margin: 0; }
+  .texto--home {
+    max-width: 100%; } }
