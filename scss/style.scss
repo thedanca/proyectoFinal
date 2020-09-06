@@ -845,6 +845,25 @@ nav ul li.btn.hide i:before {
 	  align-items: center;
 	  align-content: center;
 	}
+	.lt-grid-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 0.7fr 1.3fr;
+		gap: 20px 50px;
+		grid-template-areas:
+		  "lt-Cont"
+		  "lt-Enc";
+	  }
+	
+	  .lt2-grid-container {
+		display: grid;
+		grid-template-columns: 1.1fr;
+		grid-template-rows: 0.7fr 1fr;
+		gap: 20px 50px;
+		grid-template-areas:
+		  "lt2-enc2"
+		  "lt2-cont2";
+	  }
   }
   
 @media screen and (max-width: 1200px) {
