@@ -608,7 +608,7 @@ nav ul li.btn.hide i:before {
 .lt2-enc2 {
   grid-area: lt2-enc2; }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 376px) {
   .item a {
     font-size: 10px; }
   h1 {
@@ -634,7 +634,7 @@ nav ul li.btn.hide i:before {
     padding: 0;
     margin: 0; }
   .logo a {
-    font-size: 0,7rem; }
+    font-size: 0.7rem; }
   .container--sobreNos {
     display: flex;
     flex-direction: column;

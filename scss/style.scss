@@ -738,7 +738,7 @@ nav ul li.btn.hide i:before {
 	@extend .lt-Enc;
  }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 376px) {
   .item a {
     font-size: 10px;
   }
@@ -775,7 +775,7 @@ nav ul li.btn.hide i:before {
     margin: 0;
   }
   .logo a {
-    font-size: 0,7rem;
+    font-size: 0.7rem;
   }
   .container--sobreNos {
     display: flex;
