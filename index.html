@@ -5,9 +5,10 @@
       <meta name="description" content="servicio técnico de calidad garantizada">
       <meta name="keywords" content="SERVICE, SERVICIO, SOLUCION, PROBLEMA, TECNICO, REPARACION, MANTENIMIENTO, VIRUS, HACER MANTENIMIENTO">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
       <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani&display=swap" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
       <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&family=Poiret+One&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
       <script src="https://kit.fontawesome.com/f94b1b94bf.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
@@ -18,12 +19,13 @@
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       <link rel="stylesheet" href="CSS/style.css">
+      <script src="js/wow.min.js"></script>
       <title>Servicio técnico</title>
    </head>
    <body>
       <header>
          <nav>
-            <ul class="MENU"> 
+            <ul class="MENU">
                <li class="logo"><a href="index.html">Servicio Técnico</a></li>
                <li class="items"><a href="sobre_nosotros.html"><i class="far fa-id-badge"></i>Sobre nosotros</a></li>
                <li class="items"><a href="servicios.html"><i class="far fa-list-alt"></i>Servicios</a></li>
@@ -48,13 +50,13 @@
          <section class="container container--sobreNos">
             <div class=" container__flex">
                <div class="grid-gallery flex">
-                  <a class="grid-gallery__item" href="#">
+                  <a class="grid-gallery__item  animate__animated animate__backInRight" href="#">
                   <img class="grid-gallery__image" src="imagenes/home.png">
                   </a>
-                  <a class="grid-gallery__item" href="#">
+                  <a class="grid-gallery__item  animate__animated animate__backInDown" href="#">
                   <img class="grid-gallery__image" src="imagenes/img1.png">
                   </a>
-                  <a class="grid-gallery__item" href="#">
+                  <a class="grid-gallery__item  animate__animated animate__backInLeft" href="#">
                   <img class="grid-gallery__image" src="imagenes/img2.png">
                   </a>
                </div>
@@ -70,5 +72,8 @@
       <div class="footer footer--instagram"><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
       <div class="footer footer--youtube"><a href="https://www.youtube.com.ar" target="_blank"><i class="fab fa-youtube"></i></a></div>
    </footer>
+   <script> 
+      new WOW().init();
+   </script>
    </body>
 </html>
